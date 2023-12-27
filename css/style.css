@@ -1,0 +1,21 @@
+.flex__item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.practice__card {
+    max-width: 1200px
+}
+@media screen and (min-width: 768px) {
+    .practice__card {
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .practice__card {
+        width: 30%;
+    }
+}
+
